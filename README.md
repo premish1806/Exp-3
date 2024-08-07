@@ -23,7 +23,7 @@ The aim of this journal is to understand and implement basic arithmetic, compari
 <br>  -Greater than or equal to (>=): Checks if the first value is greater than or equal to the second.
 <br>  -Less than or equal to (<=): Checks if the first value is less than or equal to the second.
 
-<br><strongLogical Operations:</strong>
+<br><strong>Logical Operations:</strong>
 <br>Logical operations are used to perform logical operations on boolean values. The basic logical operations include AND, OR, and NOT.
 <br>  -Logical AND (&&): Returns true if both operands are true.
 <br>  -Logical OR (||): Returns true if at least one of the operands is true.
