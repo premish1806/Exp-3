@@ -8,14 +8,13 @@ The aim of this journal is to understand and implement basic arithmetic, compari
 ## Theory:
 Arithmetic Operations:
 Arithmetic operations are fundamental mathematical operations performed on numbers. The basic arithmetic operations include addition, subtraction, multiplication, division, and modulus
-
 <br>Addition (+): Adds two numbers.
 <br>Subtraction (-): Subtracts the second number from the first.
 <br>Multiplication (*): Multiplies two numbers.
 <br>Division (/): Divides the first number by the second (integer division).
 <br>Modulus (%): Returns the remainder when the first number is divided by the second.
 
-<br><br>Comparison Operations:
+<br>Comparison Operations:
 Comparison operations are used to compare two values. The result of a comparison is a boolean value (true or false).
 
 <br>Equal to (==): Checks if two values are equal.
