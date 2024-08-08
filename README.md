@@ -35,10 +35,11 @@ The aim of this journal is to understand and implement basic arithmetic, compari
 <br>
 ```cpp
 #include <iostream>
+using namespace std;
 int main() {
     int num1, num2;
-    std::cout << "Enter two numbers: ";
-    std::cin >> num1 >> num2;
+    cout << "Enter two numbers: ";
+    cin >> num1 >> num2;
 
     int addition = num1 + num2;
     int subtraction = num1 - num2;
@@ -46,11 +47,11 @@ int main() {
     int division = num1 / num2;
     int modulus = num1 % num2;
 
-    std::cout << "Addition (" << num1 << "+" << num2 << ") : " << addition << std::endl;
-    std::cout << "Subtraction (" << num1 << "-" << num2 << ") : " << subtraction << std::endl;
-    std::cout << "Multiplication (" << num1 << "*" << num2 << ") : " << multiplication << std::endl;
-    std::cout << "Division (" << num1 << "/" << num2 << ") : " << division << std::endl;
-    std::cout << "Modulus (" << num1 << "%" << num2 << ") : " << modulus << std::endl;
+    cout << "Addition (" << num1 << "+" << num2 << ") : " << addition << std::endl;
+    cout << "Subtraction (" << num1 << "-" << num2 << ") : " << subtraction << std::endl;
+    cout << "Multiplication (" << num1 << "*" << num2 << ") : " << multiplication << std::endl;
+    cout << "Division (" << num1 << "/" << num2 << ") : " << division << std::endl;
+    cout << "Modulus (" << num1 << "%" << num2 << ") : " << modulus << std::endl;
 
     return 0;
 }
@@ -67,12 +68,11 @@ int main() {
 <br>
 ```cpp
 #include <iostream>
-
+using namespace std;
 int main() {
     int num1, num2;
-
-    std::cout << "Enter two numbers: ";
-    std::cin >> num1 >> num2;
+    cout << "Enter two numbers: ";
+    cin >> num1 >> num2;
 
     bool equal = (num1 == num2);
     bool notEqual = (num1 != num2);
@@ -81,12 +81,12 @@ int main() {
     bool greaterThanOrEqual = (num1 >= num2);
     bool lessThanOrEqual = (num1 <= num2);
 
-    std::cout << "Equal to (" << num1 << "==" << num2 << "): " << equal << std::endl;
-    std::cout << "Not equal to (" << num1 << "!=" << num2 << "): " << notEqual << std::endl;
-    std::cout << "Greater than (" << num1 << ">" << num2 << "): " << greaterThan << std::endl;
-    std::cout << "Less than (" << num1 << "<" << num2 << "): " << lessThan << std::endl;
-    std::cout << "Greater than or equal to (" << num1 << ">=" << num2 << "): " << greaterThanOrEqual << std::endl;
-    std::cout << "Less than or equal to (" << num1 << "<=" << num2 << "): " << lessThanOrEqual << std::endl;
+    cout << "Equal to (" << num1 << "==" << num2 << "): " << equal << std::endl;
+    cout << "Not equal to (" << num1 << "!=" << num2 << "): " << notEqual << std::endl;
+    cout << "Greater than (" << num1 << ">" << num2 << "): " << greaterThan << std::endl;
+    cout << "Less than (" << num1 << "<" << num2 << "): " << lessThan << std::endl;
+    cout << "Greater than or equal to (" << num1 << ">=" << num2 << "): " << greaterThanOrEqual << std::endl;
+    cout << "Less than or equal to (" << num1 << "<=" << num2 << "): " << lessThanOrEqual << std::endl;
 
     return 0;
 }
@@ -103,20 +103,20 @@ int main() {
 <br>
 ```cpp
 #include <iostream>
+using namespace std;
 int main() {
     bool a, b;
-
-    std::cout << "Enter two boolean values (0 for false, 1 for true): ";
-    std::cin >> a >> b
-    std::cout << "a=" << (a ? "true" : "false") << ", b=" << (b ? "true" : "false") << std::endl;
+    cout << "Enter two boolean values (0 for false, 1 for true): ";
+    cin >> a >> b
+    cout << "a=" << (a ? "true" : "false") << ", b=" << (b ? "true" : "false") << std::endl;
 
     bool logicalAnd = a && b;
     bool logicalOr = a || b;
     bool logicalNotA = !a;
 
-    std::cout << "Logical AND (a&&b): " << logicalAnd << std::endl;
-    std::cout << "Logical OR (a||b): " << logicalOr << std::endl;
-    std::cout << "Logical NOT (!a): " << logicalNotA << std::endl;
+    cout << "Logical AND (a&&b): " << logicalAnd << std::endl;
+    cout << "Logical OR (a||b): " << logicalOr << std::endl;
+    cout << "Logical NOT (!a): " << logicalNotA << std::endl;
 
     return 0;
 }
