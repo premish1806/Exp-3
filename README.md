@@ -19,6 +19,9 @@ Logical operations in C++ are used to evaluate expressions and return boolean va
 <strong> Code: </strong>
 <br>
 ```cpp
+// Premish Ninawe
+// 23070123092
+// ENTC B1
 #include <iostream>
 using namespace std;
 int main() {
@@ -52,6 +55,9 @@ int main() {
 <strong> Code: </strong>
 <br>
 ```cpp
+// Premish Ninawe
+// 23070123092
+// ENTC B1
 #include <iostream>
 using namespace std;
 int main() {
@@ -87,6 +93,9 @@ int main() {
 <strong> Code: </strong>
 <br>
 ```cpp
+// Premish Ninawe
+// 23070123092
+// ENTC B1
 #include <iostream>
 using namespace std;
 int main() {
