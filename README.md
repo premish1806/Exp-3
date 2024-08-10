@@ -6,22 +6,14 @@ To understand and analyze the usage of logical and bitwise operators in C++ thro
 - Dev c++
 
 ## Theory:
-<strong>1.Logical Operators:</strong><br>
-Logical operators in C++ are used to perform logical operations. The logical AND (&&) operator returns true if both operands are true, and false otherwise. In C++, the boolalpha manipulator allows us to output true or false instead of 1 or 0.
+<strong>1.Arithmetic Operations:</strong><br>
+Arithmetic operations in C++ allow for basic mathematical computations. The primary arithmetic operators include addition (+), subtraction (-), multiplication (*), division (/), and modulus (%). These operators are used to perform calculations on numerical values and return the respective result. Arithmetic operations are fundamental in programming, enabling various types of numeric processing.<br>
 
-<strong>2.Equality and Inequality Operators:</strong<br>
+<strong>2.Comparison Operations:</strong><br>
+Comparison operations in C++ are used to compare two values and determine their relational status. The operators include equality (==), inequality (!=), greater than (>), less than (<), greater than or equal to (>=), and less than or equal to (<=). These operations return a boolean value (true or false) based on the comparison, allowing for decision-making processes in the code.<br>
 
-The equality operator (==) checks if two values are equal and returns true if they are, and false otherwise.
-The inequality operator (!=) checks if two values are not equal and returns true if they are not, and false otherwise.
-
-<strong>3.Bitwise Operators:</strong
-Bitwise operators perform operations on the binary representation of integers:<br>
-The bitwise AND (&) operator performs a bitwise AND operation.
-The bitwise OR (|) operator performs a bitwise OR operation.
-The bitwise XOR (^) operator performs a bitwise XOR operation.
-The bitwise NOT (~) operator inverts all bits.
-The left shift (<<) operator shifts bits to the left.
-The right shift (>>) operator shifts bits to the right.
+<strong>3.Logical Operations:</strong><br>
+Logical operations in C++ are used to evaluate expressions and return boolean values. The main logical operators include AND (&&), OR (||), and NOT (!).
 
 ## Program 1: Take two numbers as input from user and perform arithmetic operations on those numbers.
 <strong> Code: </strong>
