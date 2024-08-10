@@ -1,36 +1,29 @@
 # Exp-3
 ## Aim:
-The aim of this journal is to understand and implement basic arithmetic, comparison, and logical operations using C++ programming. This involves taking input from the user, performing the operations, and displaying the results in a clear and concise manner.
+To understand and analyze the usage of logical and bitwise operators in C++ through practical examples, demonstrating their functionality and output.
 
 ## Software Used:
 - Dev c++
 
 ## Theory:
-<strong>Arithmetic Operations:</strong>
-<br>Arithmetic operations are fundamental mathematical operations performed on numbers. The basic arithmetic operations include addition, subtraction, multiplication, division, and modulus
-<br>  -Addition (+): Adds two numbers.
-<br>  -Subtraction (-): Subtracts the second number from the first.
-<br>  -Multiplication (*): Multiplies two numbers.
-<br>  -Division (/): Divides the first number by the second (integer division).
-<br>  -Modulus (%): Returns the remainder when the first number is divided by the second.
+<strong>1.Logical Operators:</strong><br>
+Logical operators in C++ are used to perform logical operations. The logical AND (&&) operator returns true if both operands are true, and false otherwise. In C++, the boolalpha manipulator allows us to output true or false instead of 1 or 0.
 
-<br><strong>Comparison Operations:</strong>
-<br>Comparison operations are used to compare two values. The result of a comparison is a boolean value (true or false).
-<br>  -Equal to (==): Checks if two values are equal.
-<br>  -Not equal to (!=): Checks if two values are not equal.
-<br>  -Greater than (>): Checks if the first value is greater than the second.
-<br>  -Less than (<): Checks if the first value is less than the second.
-<br>  -Greater than or equal to (>=): Checks if the first value is greater than or equal to the second.
-<br>  -Less than or equal to (<=): Checks if the first value is less than or equal to the second.
+<strong>2.Equality and Inequality Operators:</strong<br>
 
-<br><strong>Logical Operations:</strong>
-<br>Logical operations are used to perform logical operations on boolean values. The basic logical operations include AND, OR, and NOT.
-<br>  -Logical AND (&&): Returns true if both operands are true.
-<br>  -Logical OR (||): Returns true if at least one of the operands is true.
-<br>  -Logical NOT (!): Returns the opposite boolean value of the operand.
+The equality operator (==) checks if two values are equal and returns true if they are, and false otherwise.
+The inequality operator (!=) checks if two values are not equal and returns true if they are not, and false otherwise.
+
+<strong>3.Bitwise Operators:</strong
+Bitwise operators perform operations on the binary representation of integers:<br>
+The bitwise AND (&) operator performs a bitwise AND operation.
+The bitwise OR (|) operator performs a bitwise OR operation.
+The bitwise XOR (^) operator performs a bitwise XOR operation.
+The bitwise NOT (~) operator inverts all bits.
+The left shift (<<) operator shifts bits to the left.
+The right shift (>>) operator shifts bits to the right.
 
 ## Program 1: Take two numbers as input from user and perform arithmetic operations on those numbers.
-
 <strong> Code: </strong>
 <br>
 ```cpp
