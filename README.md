@@ -47,8 +47,7 @@ int main() {
 
 <strong> Output: </strong>
 <br>
-![image](https://github.com/user-attachments/assets/b2fe86a9-0318-4aa3-8e9d-3d56adce9f9e)
-
+![image](https://github.com/user-attachments/assets/c9ca8bd6-c764-4129-9328-fdb4fe76ee78)
 
 ## Program 2: Take two numbers as input from user and perform comparison operations on those numbers.
 
@@ -85,8 +84,7 @@ int main() {
 
 <strong> Output: </strong>
 <br>
-![image](https://github.com/user-attachments/assets/e263fc8b-d5f9-4220-9cec-aaca93d72439)
-
+![image](https://github.com/user-attachments/assets/7a5d876b-01c1-4a22-9c2e-881b0474bd59)
 
 ## Program 3:Take two numbers as input from user and perform logical operations on those numbers.
 
@@ -101,7 +99,7 @@ using namespace std;
 int main() {
     bool a, b;
     cout << "Enter two boolean values (0 for false, 1 for true): ";
-    cin >> a >> b
+    cin >> a >> b;
     cout << "a=" << (a ? "true" : "false") << ", b=" << (b ? "true" : "false") << std::endl;
 
     bool logicalAnd = a && b;
@@ -118,7 +116,8 @@ int main() {
 
 <strong> Output: </strong>
 <br>
-![image](https://github.com/user-attachments/assets/3eef7c22-d547-43ea-847b-6654bf921107)
+![image](https://github.com/user-attachments/assets/72872dfd-39c0-4a58-8ea2-6eea1c7afa9a)
+
 
 
 ## Conclusion:
